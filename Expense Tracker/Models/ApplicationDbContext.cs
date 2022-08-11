@@ -10,6 +10,7 @@ namespace Expense_Tracker.Models
         }
         // DbSet for Category
         public DbSet<Category> Categories { get; set; }
+        // DbSet for Transactions
         public DbSet<Transaction> Transactions { get; set; }
     }
 }
